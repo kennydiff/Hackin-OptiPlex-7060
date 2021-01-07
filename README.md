@@ -1,7 +1,14 @@
 # Hackintosh-OptiPlex-7060-SFF(OpenCore)
 **OpenCore Bootloader tested on Catalina 10.15.7**
 
-**2012-12-31**
+**2021-01-07**
+
+- 将OpenCore升级到0.6.5
+- 删除OC的Tools文件夹的工具（被证实在正式系统中无用）
+- 删除AMD显卡的驱动 WhateverGreen.kext
+- 从windows 的SSDTTime 重新定制本机(OptiPlex-7060)的SSDT
+
+**2020-12-31**
 
 * 从webleon的OptiPlex7070SFF fork过来，安装Catalina 10.15.7后直接几乎完美，感谢webleon
 
