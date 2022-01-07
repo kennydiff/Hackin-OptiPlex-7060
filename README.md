@@ -1,5 +1,12 @@
 # Hackintosh-OptiPlex-7060-SFF(OpenCore)
-**OpenCore Bootloader tested on Catalina 10.15.7**
+**OpenCore Bootloader tested on Big Sur 11.6.2**
+
+**2022-01-07**
+
+- 系统升级到 Big Sur 11.6.2
+- 将OpenCore升级到0.7.6
+- 更新KEXT和OpenCore的Driver
+- 深度休眠还是会重启，在BIOS里Power Management → Block Sleep: ***check*** ，可实现局部睡眠，唤醒。
 
 **2021-01-07**
 
@@ -49,7 +56,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * Partly Sleep & Wakeup
 
 ## Not working
-* 休眠后会睡死，需要在节能里勾选“当显示器关闭时，防止电脑自动进入睡眠”
+* 深度休眠后会内核出错重启
 
 ## BIOS Settings
 * General → Advanced Boot Options: ***uncheck***
