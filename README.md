@@ -3,9 +3,9 @@
 
 **2022-01-07**
 
-- 系统升级到 Big Sur 11.6.2
-- 将OpenCore升级到0.7.6
-- 更新KEXT和OpenCore的Driver
+- Upgrade macOS to Big Sur 11.6.2
+- OpenCore Updated to 0.7.6
+- Upgrade all the KEXT and Driver
 - 深度休眠还是会重启，在BIOS里Power Management → Block Sleep: ***check*** ，可实现局部睡眠，唤醒。
 
 **2021-01-07**
@@ -43,7 +43,7 @@ You will have to [**generate a new SMIBIOS**](https://github.com/corpnewt/GenSMB
 * **CPU**: [Intel® Core™ i7-8700(Coffee Lake)](https://ark.intel.com/content/www/us/en/ark/products/126686/intel-core-i7-8700-processor-12m-cache-up-to-4-60-ghz.html)
 * **iGPU**: Intel® UHD Graphics 630
 * **RAM**: 32GB DDR4 2666 Daul Channel
-* **HDD**: SAMSUNG SSD 970 EVO 250GB
+* **HDD**: Crucial P5 1TB PCIe M.2 2280SS SSD
 * **Wi-Fi & Bluetooth**: BCM94360CS2 with NGFF Adapter
 
 ## Working
